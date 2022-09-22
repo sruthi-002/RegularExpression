@@ -4,7 +4,6 @@ import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
-        String pattern = "\\d\\d\\d([,\\s])?\\d\\d\\d\\d";
         System.out.print("Enter the phone number : ");
         Scanner in = new Scanner(System.in);
         String phone = in.next();
